@@ -1,0 +1,29 @@
+//
+//  LJPhotoGroup.pch
+//  LJPhotoGroup
+//
+//  Created by 孙伟伟 on 2017/7/30.
+//  Copyright © 2017年 孙伟伟. All rights reserved.
+//
+
+#ifndef LJPhotoGroup_pch
+#define LJPhotoGroup_pch
+
+#import "UIView+RGSize.h"
+
+#define kDEVICEWIDTH  [UIScreen mainScreen].bounds.size.width
+#define kDEVICEHEIGHT  [UIScreen mainScreen].bounds.size.height
+
+//字体
+#define loadFont(size)  [UIFont systemFontOfSize:size]
+
+//日志打印开宏，默认是打开的
+#define  _DEBUG
+
+#ifdef _DEBUG
+#define CHDebugLog(...) NSLog(__VA_ARGS__)
+#else
+#define CHDebugLog(...)
+#endif
+
+#endif /* LJPhotoGroup_pch */
