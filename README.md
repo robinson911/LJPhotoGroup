@@ -16,4 +16,4 @@
     [_ljPhotoGroupView showView];
 }
 效果图：
-![image](https://github.com/robinson911/LJPhotoGroup/blob/master/2017-07-31%2019_59_210000.gif)
+![image](https://github.com/robinson911/LJPhotoGroup/blob/master/2017-07-31%2020_08_540000000.gif)
